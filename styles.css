@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.container {
+    height: 80%;
+    display: flex;
+    border: 5px solid black;
+}
+
+body{
+    background-color: black;
+}
+
+.footer {
+    color: #18ffff;
+    width: 100%;
+    height: 5%;
+    bottom:0;
+    text-align: center;
+    background-color:#000000;
+    border : 15px 0px 0px 0px solid white;
+}
+
+.body{
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+}
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    height: 100%;
+    bottom: 2px;
+    width: 100% ;
+    overflow: hidden;
+}
+
+input{ 
+    align-self: flex-start;
+    background-color: #212121;
+    color: #08F7FE;
+    text-shadow: #09FBD3;
+    border: none;
+    margin: 5% 5%;
+    font-size: x-large;
+    border-radius: 19px;
+    outline: none;
+    padding: 8px;
+}
+
+input:hover{
+    align-self: flex-start;
+    outline: none;
+    box-shadow: 1px 1px  155px 1px#09FBD3 ;
+}
+
+input:focus{
+    outline: none;
+    align-self: flex-start;
+    box-shadow: 0px 0px 0px 1px#09FBD3 ;
+}
+
+.header {
+    background-image: linear-gradient( to bottom right, #76ffff, #18ffff);
+    font-family: 'Comfortaa', cursive;
+    font-size: 370%;
+    text-align: center;
+    height: 10%;
+    background-color: #18ffff;
+    padding: 30px 5px 30px 5px
+}
+
+.scroll{
+    padding: 1%;
+    height: auto;
+    width: 100%;     
+    color:white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+    text-align:center;
+    overflow-y: scroll;
+}
+
+.input_div{
+    align-content: flex-start;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: center;
+}
+.value{
+    margin: 0% 2%;
+    display: inline-block;
+    min-width: 50%;
+    color: #e0f7fa;
+    padding: 2% 10%;
+    border: 2px solid #e0f7fa;
+    border-radius: 19px;
+    font-size: large;
+}
+.value:hover{
+    display: inline-block;
+    min-width: 50%;
+    border : 2px solid  #e0f7fa;
+    color : black;
+    background-color : #e0f7fa;
+}
+
+a{ 
+    display: block;
+    text-align: center;
+    margin:1% 5%;
+    text-decoration: none;
+}
