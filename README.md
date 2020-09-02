@@ -1,5 +1,5 @@
 # Fast calculator 
-<b> A simple , fast and responsive and  </b>
+<b> A simple , fast and responsive calculator </b>
 
 ### Enter first number
  Enter number in first number input field then either press <code>Enter</code> or click elsewhere so that focus on first number input field goes out .
