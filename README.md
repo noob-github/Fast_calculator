@@ -13,7 +13,9 @@
 * When you click on any of the result button then the result will get enetered in first number field .
 
 ## screenshots
-
+![](images/calculator/s1.png)
+![](images/calculator/s2.png)
+![](images/calculator/s3.png)
 
 #### Further improvements which I will try to do soon ..
 Adding history div
